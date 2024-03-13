@@ -1,0 +1,1275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7));
+}
+
+header nav{
+    width: 100%;
+    height: 100%;
+}
+
+header nav .d1{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 100px;
+}
+
+header nav .d1 h1{
+    height: 100%;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 220px;
+    left: 10%;
+    color: white;
+    font-weight: normal;
+    position: absolute;
+    padding-top: 10px;
+}
+
+header nav .d1 h2{
+    height: 100%;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 200px;
+    font-weight: normal;
+    left: 25%;
+    color: white;
+    position: absolute;
+    padding-top: 10px;
+}
+
+header nav .d1 h3{
+    height: 100%;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 300px;
+    left: 38%;
+    font-weight: normal;
+    position: absolute;
+    color: white;
+    padding-top: 10px;
+}
+
+header nav .d1d1{
+    width: 200px;
+    height: 100%;
+    font-size: 17px;
+    right: 8%;
+    position: absolute;
+    padding-top: 10px;
+}
+
+header nav .d1d1 i{
+    padding-left: 30px;
+    color: white;
+}
+
+header nav .d2{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    position: fixed;
+    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7));
+    z-index: 1;
+}
+
+header nav .d2 .logo{
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    left: 10%;
+    padding-top: 20px;
+}
+
+header nav .d2 .d2d1{
+    width: 600px;
+    height: 100%;
+    position: absolute;
+    left: 40%;
+}
+
+header nav .d2 .d2d1 ul{
+    width: 100%;
+    height: 100%;
+}
+
+header nav .d2 .d2d1 ul li{
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    padding-left: 20px;
+    color: white;
+    margin-top: 30px;
+}
+
+header nav .d2 .d2d2{
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+} 
+
+header nav .d2 .d2d2 button{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    margin-top: 20px;
+}
+
+.main{
+    background-image: linear-gradient(rgba(7, 10, 22, 0.7),rgba(11, 14, 27, 0.7)), url('./Images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.s1{
+    width: 100%;
+    height: 450px;
+}
+
+.s1 nav{
+    width: 100%;
+    height: 100%;
+}
+
+.s1 nav .s1d1{
+    width: 100%;
+    height: 100%;
+}
+
+.s1 nav .s1d1 h1{
+    font-size: 125px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: orangered;
+    margin-top: 300px;
+    margin-left: 200px;
+}
+
+.s1 nav .s1d1 h2{
+    font-size: 125px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: orangered;
+    margin-left: 300px;
+}
+
+.s2{
+    width: 100%;
+    height: 600px;
+}
+
+.s2 nav{
+    width: 100%;
+    height: 100%;
+}
+
+.s2 nav h1{
+    width: 100%;
+    height: 70px;
+    font-size: 55px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.s2 nav .s2d1{
+    width: 350px;
+    height: 350px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 9%;
+}
+
+.s2 nav .s2d1 .s2d1d1{
+    width: 100%;
+    height: 80%;
+}
+
+.s2 nav .s2d1 .s2d1d2{
+    width: 100%;
+    height: 20%;
+}
+
+.s2 nav .s2d1 .s2d1d2 h2{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.s2 nav .s2d2{
+    width: 350px;
+    height: 350px;
+    margin-left: 3%;
+    margin-top: 50px;
+    float: left;
+}
+
+.s2 nav .s2d2 .s2d2d1{
+    width: 100%;
+    height: 80%;
+}
+
+.s2 nav .s2d2 .s2d2d2{
+    width: 100%;
+    height: 20%;
+}
+
+.s2 nav .s2d2 .s2d2d2 h2{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.s2 nav .s2d3{
+    width: 350px;
+    height: 350px;
+    margin-left: 3%;
+    float: left;
+    margin-top: 50px;
+}
+
+.s2 nav .s2d3 .s2d3d1{
+    width: 100%;
+    height: 80%;
+}
+
+.s2 nav .s2d3 .s2d3d2{
+    width: 100%;
+    height: 20%;
+}
+
+.s2 nav .s2d3 .s2d3d2 h2{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.s2 nav .s2d1 .s2d1d1 img, .s2 nav .s2d2 .s2d2d1 img, .s2 nav .s2d3 .s2d3d1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.s2 nav .s2d1 .s2d1d2 button, .s2d2 .s2d2d2 button, .s2d3 .s2d3d2 button{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 5%;
+    border: none;
+    padding: 7px;
+    background-color: white;
+    border-bottom: 2px solid black;
+}
+
+.s3{
+    width: 100%;
+    height: 600px;
+}
+
+.s3 nav{
+    width: 100%;
+    height: 100%;
+}
+
+.s3 nav .s3d1{
+    width: 35%;
+    height: 100%;
+    float: left;
+    margin-left: 5%;
+}
+
+.s3 nav .s3d1 h1{
+    font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 70px;
+}
+
+.s3 nav .s3d1 p{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 50px;
+}
+
+.s3 nav .s3d1 button{
+    font-size: 20px;
+    padding: 15px 30px;
+    border: none;
+    background-color: orangered;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    margin-top: 50px;
+    color: white;
+}
+
+.s3 nav .s3d2{
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-left: 5%;
+}
+
+.s3 nav .s3d2 .s3d2d1{
+    width: 85%;
+    margin-top: 60px;
+    margin-left: 60px;
+    height: 80%;
+    position: relative;
+}
+
+.s3 nav .s3d2 .s3d2d1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.s3 nav .s3d2 .s3d2d1 .s3d2d1d1{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(4, 4, 84);
+    border-radius: 10px;
+}
+
+.s3 nav .s3d2 .s3d2d1 .s3d2d1d1 h1{
+    font-size: 60px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.s3 nav .s3d2 .s3d2d1 .s3d2d1d1 p{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 10px;
+}
+
+.s4{
+    width: 100%;
+    height: 1300px;
+}
+
+.s4 nav{
+    width: 100%;
+    height: 100%;
+}
+
+.s4 nav h1{
+    width: 100%;
+    height: 70px;
+    font-size: 55px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.s4 nav .s4d1{
+    width: 25%;
+    height: 450px;
+    position: relative;
+    float: left;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+.s4 nav .s4d1 button{
+    background-color: orangered;
+    position: absolute;
+    bottom: 45px;
+    right: 20px;
+    font-size: 30px;
+    border: none;
+    padding: 5px;
+    width: 50px;
+    color: white;
+    opacity: 0;
+}
+
+.s4 nav .s4d1 .s4d1d1{
+    width: 100%;
+    height: 85%;
+}
+
+.s4 nav .s4d1 .s4d1d2{
+    width: 100%;
+    height: 15%;
+}
+
+.s4 nav .s4d1 .s4d1d2 h2{
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.s4 nav .s4d1:hover .s4d1d2 h2{
+    background-color: rgb(0, 0, 110);
+    color: white;
+    transition: 1.0s;
+}
+
+.s4 nav .s4d1:hover button{
+    opacity: 1;
+    transition: 1.0s;
+    cursor: pointer;
+}
+
+.s4 nav .s4d2{
+    width: 25%;
+    height: 450px;
+    position: relative;
+    float: left;
+    margin-left: 3%;
+    margin-top: 4%;
+}
+
+.s4 nav .s4d2 button{
+    background-color: orangered;
+    position: absolute;
+    bottom: 45px;
+    right: 20px;
+    font-size: 30px;
+    border: none;
+    padding: 5px;
+    width: 50px;
+    color: white;
+    opacity: 0;
+}
+
+.s4 nav .s4d2 .s4d2d1{
+    width: 100%;
+    height: 85%;
+}
+
+.s4 nav .s4d2 .s4d2d2{
+    width: 100%;
+    height: 15%;
+}
+
+.s4 nav .s4d2 .s4d2d2 h2{
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.s4 nav .s4d2:hover .s4d2d2 h2{
+    background-color: rgb(0, 0, 110);
+    color: white;
+    transition: 1.0s;
+}
+
+.s4 nav .s4d2:hover button{
+    opacity: 1;
+    transition: 1.0s;
+    cursor: pointer;
+}
+
+.s4 nav .s4d3{
+    width: 25%;
+    height: 450px;
+    position: relative;
+    float: left;
+    margin-left: 3%;
+    margin-top: 4%;
+}
+
+.s4 nav .s4d3 button{
+    background-color: orangered;
+    position: absolute;
+    bottom: 45px;
+    right: 20px;
+    font-size: 30px;
+    border: none;
+    padding: 5px;
+    width: 50px;
+    color: white;
+    opacity: 0;
+}
+
+.s4 nav .s4d3 .s4d3d1{
+    width: 100%;
+    height: 85%;
+}
+
+.s4 nav .s4d3 .s4d3d2{
+    width: 100%;
+    height: 15%;
+}
+
+.s4 nav .s4d3 .s4d3d2 h2{
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.s4 nav .s4d3:hover .s4d3d2 h2{
+    background-color: rgb(0, 0, 110);
+    color: white;
+    transition: 1.0s;
+}
+
+.s4 nav .s4d3:hover button{
+    opacity: 1;
+    transition: 1.0s;
+    cursor: pointer;
+}
+
+.s4 nav .s4d4{
+    width: 25%;
+    height: 450px;
+    position: relative;
+    float: left;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+.s4 nav .s4d4 button{
+    background-color: orangered;
+    position: absolute;
+    bottom: 45px;
+    right: 20px;
+    font-size: 30px;
+    border: none;
+    padding: 5px;
+    width: 50px;
+    color: white;
+    opacity: 0;
+}
+
+.s4 nav .s4d4 .s4d4d1{
+    width: 100%;
+    height: 85%;
+}
+
+.s4 nav .s4d4 .s4d4d2{
+    width: 100%;
+    height: 15%;
+}
+
+.s4 nav .s4d4 .s4d4d2 h2{
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.s4 nav .s4d4:hover .s4d4d2 h2{
+    background-color: rgb(0, 0, 110);
+    color: white;
+    transition: 1.0s;
+}
+
+.s4 nav .s4d4:hover button{
+    opacity: 1;
+    transition: 1.0s;
+    cursor: pointer;
+}
+
+.s4 nav .s4d5{
+    width: 25%;
+    height: 450px;
+    position: relative;
+    float: left;
+    margin-left: 3%;
+    margin-top: 50px;
+}
+
+.s4 nav .s4d5 button{
+    background-color: orangered;
+    position: absolute;
+    bottom: 45px;
+    right: 20px;
+    font-size: 30px;
+    border: none;
+    padding: 5px;
+    width: 50px;
+    color: white;
+    opacity: 0;
+}
+
+.s4 nav .s4d5 .s4d5d1{
+    width: 100%;
+    height: 85%;
+}
+
+.s4 nav .s4d5 .s4d5d2{
+    width: 100%;
+    height: 15%;
+}
+
+.s4 nav .s4d5 .s4d5d2 h2{
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.s4 nav .s4d5:hover .s4d5d2 h2{
+    background-color: rgb(0, 0, 110);
+    color: white;
+    transition: 1.0s;
+}
+
+.s4 nav .s4d5:hover button{
+    opacity: 1;
+    transition: 1.0s;
+    cursor: pointer;
+}
+
+.s4 nav .s4d6{
+    width: 25%;
+    height: 450px;
+    position: relative;
+    float: left;
+    margin-left: 3%;
+    margin-top: 50px;
+}
+
+.s4 nav .s4d6 button{
+    background-color: orangered;
+    position: absolute;
+    bottom: 45px;
+    right: 20px;
+    font-size: 30px;
+    border: none;
+    padding: 5px;
+    width: 50px;
+    color: white;
+    opacity: 0;
+}
+
+.s4 nav .s4d6 .s4d6d1{
+    width: 100%;
+    height: 85%;
+}
+
+.s4 nav .s4d6 .s4d6d2{
+    width: 100%;
+    height: 15%;
+}
+
+.s4 nav .s4d6 .s4d6d2 h2{
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.s4 nav .s4d6:hover .s4d6d2 h2{
+    background-color: rgb(0, 0, 110);
+    color: white;
+    transition: 1.0s;
+}
+
+.s4 nav .s4d6:hover button{
+    opacity: 1;
+    transition: 1.0s;
+    cursor: pointer;
+}
+
+.s4 nav .s4d1 .s4d1d1 img, .s4d2 .s4d2d1 img, .s4d3 .s4d3d1 img, .s4d4 .s4d4d1 img, .s4d5 .s4d5d1 img, .s4d6 .s4d6d1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.s5{
+    width: 100%;
+    height: 700px;
+    border: 2px solid black;
+    background-image: url('./Images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.s5 nav{
+    width: 100%;
+    height: 100%;
+}
+
+.s5 nav .s5d1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.s5 nav .s5d1 h1{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    margin-left: 20%;
+    padding-top: 200px;
+    color: white;
+}
+
+.s5 nav .s5d1 p{
+    width: 48%;
+    margin-left: 20%;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.s5 nav .s5d1 button{
+    padding: 15px;
+    margin-left: 20%;
+    letter-spacing: 2px;
+    font-size: 16px;
+    border: none;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.s5 nav .s5d1 .s5d1d1{
+    width: 80%;
+    height: 200px;
+    position: absolute;
+    bottom: -100px;
+    left: 10%;
+    background-image: url('./Images/bg3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.s5 nav .s5d1 .s5d1d1 .s5d1d1d1{
+    width: 20%;
+    height: 200px;
+    float: left;
+    margin-left: 5%;
+}
+
+.s5 nav .s5d1 .s5d1d1 .s5d1d1d1{
+    width: 20%;
+    position: relative;
+}
+
+.s5 nav .s5d1 .s5d1d1 .s5d1d1d1 h2{
+    width: 28%;
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.s5 nav .s5d1 .s5d1d1 .s5d1d1d1 p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    float: left;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    width: 42%;
+}
+
+.s5 nav .s5d1 .s5d1d1 .s5d1d1d1 h3{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    position: absolute;
+    left: 150px;
+    top: 90px;
+}
+
+.s5 nav .s5d1 .s5d1d1 .s5d1d1d2{
+    width: 20%;
+    height: 200px;
+    float: left;
+    margin-left: 15%;
+}
+
+.s5 nav .s5d1 .s5d1d1 .s5d1d1d2{
+    width: 20%;
+    position: relative;
+}
+
+.s5 nav .s5d1 .s5d1d1 .s5d1d1d2 h2{
+    width: 28%;
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.s5 nav .s5d1 .s5d1d1 .s5d1d1d2 p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    float: left;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    width: 42%;
+}
+
+.s5 nav .s5d1 .s5d1d1 .s5d1d1d2 h3{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    position: absolute;
+    left: 150px;
+    top: 90px;
+}
+
+.s5 nav .s5d1 .s5d1d1 .s5d1d1d3{
+    width: 20%;
+    height: 200px;
+    float: right;
+    margin-right: 5%;
+}
+
+.s5 nav .s5d1 .s5d1d1 .s5d1d1d3{
+    width: 20%;
+    position: relative;
+}
+
+.s5 nav .s5d1 .s5d1d1 .s5d1d1d3 h2{
+    width: 28%;
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    float: left;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+.s5 nav .s5d1 .s5d1d1 .s5d1d1d3 p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    float: left;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    width: 42%;
+}
+
+.s5 nav .s5d1 .s5d1d1 .s5d1d1d3 h3{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    position: absolute;
+    left: 150px;
+    top: 90px;
+}
+
+.s6{
+    width: 100%;
+    height: 750px;
+    margin-top: 200px;
+}
+
+.s6 nav{
+    width: 100%;
+    height: 100%;
+}
+
+.s6 nav h1{
+    width: 100%;
+    height: 70px;
+    font-size: 55px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.s6 nav .s6d1{
+    width: 25%;
+    height: 450px;
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.s6 nav .s6d1 img{
+    width: 100%;
+    height: 90%;
+}
+
+.s6 nav .s6d1 h2{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 5%;
+}
+
+.s6 nav .s6d2{
+    width: 25%;
+    height: 450px;
+    float: left;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+
+.s6 nav .s6d2 img{
+    width: 100%;
+    height: 90%;
+}
+
+.s6 nav .s6d2 h2{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 5%;
+}
+
+.s6 nav .s6d3{
+    width: 25%;
+    height: 450px;
+    float: left;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+
+.s6 nav .s6d3 img{
+    width: 100%;
+    height: 90%;
+}
+
+.s6 nav .s6d3 h2{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 5%;
+}
+
+.s7{
+    width: 100%;
+    height: 700px;
+    border: 2px solid black;
+    background-image: url('./Images/bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.s7 nav{
+    width: 100%;
+    height: 100%;
+}
+
+.s7 nav h1{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10%;
+    margin-left: 10%;
+    color: white;
+}
+
+.s7 nav .s7d1{
+    width: 85%;
+    height: 200px;
+}
+
+.s7 nav .s7d1 img{
+    margin-left: 25%;
+    margin-top: 4%;
+}
+
+.s7 nav .s7d1 p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 25%;
+    margin-top: 2%;
+    color: rgb(216, 214, 214);
+}
+
+.s7 nav .s7d2{
+    width: 10%;
+    height: 65px;
+    border-left: 2px solid red;
+    margin-top: 5%;
+    margin-left: 21.5%;
+    padding-left: 50px;
+}
+
+.s7 nav .s7d2 h2{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(218, 216, 216);
+}
+
+.s7 nav .s7d2 h3{
+    font-size: 20px;
+    color: rgb(110, 110, 110);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.s8{
+    width: 100%;
+    height: 900px;
+}
+
+.s8 nav{
+    width: 100%;
+    height: 89%;
+}
+
+.s8 nav h1{
+    width: 100%;
+    height: 70px;
+    font-size: 55px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.s8 nav .s8d1{
+    width: 40%;
+    height: 600px;
+    float: left;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.s8 nav .s8d1 .s8d1d1{
+    width: 100%;
+    height: 70%;
+}
+
+.s8 nav .s8d1 .s8d1d1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.s8 nav .s8d1 .s8d1d2{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(3, 3, 97);
+}
+
+.s8 nav .s8d1 .s8d1d2 h2{
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    transition: 0.5s;
+}
+
+.s8 nav .s8d1 .s8d1d2 h2:hover{
+    color: orangered;
+    transition: 0.2s;
+}
+
+.s8 nav .s8d1 .s8d1d2 button{
+    margin-left: 30px;
+    font-size: 17px;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    background-color: rgb(3, 3, 97);
+    color: orangered;
+    transition: 0.2s;
+}
+
+.s8 nav .s8d1 .s8d1d2 button:hover{
+    border-bottom: 2px solid orangered;
+    transition: 0.5s;
+}
+
+.s8 nav .s8d2{
+    width: 40%;
+    height: 600px;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.s8 nav .s8d2 .s8d2d1{
+    width: 100%;
+    height: 70%;
+}
+
+.s8 nav .s8d2 .s8d2d1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.s8 nav .s8d2 .s8d2d2{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(3, 3, 97);
+}
+
+.s8 nav .s8d2 .s8d2d2 h2{
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.s8 nav .s8d2 .s8d2d2 h2:hover{
+    color: orangered;
+    transition: 0.2s;
+}
+
+.s8 nav .s8d2 .s8d2d2 button{
+    margin-left: 30px;
+    font-size: 17px;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    background-color: rgb(3, 3, 97);
+    color: orangered;
+    transition: 0.2s;
+}
+
+.s8 nav .s8d2 .s8d2d2 button:hover{
+    border-bottom: 2px solid orangered;
+    transition: 0.5s;
+}
+
+.s9{
+    width: 100%;
+    height: 600px;
+    border: 2px solid black;
+    background-color: black;
+}
+
+.s9 nav{
+    width: 100%;
+    height: 100%;
+}
+
+.s9 nav .s9d1{
+    width: 25%;
+    height: 200px;
+    float: left;
+    margin-left: 6%;
+    margin-top: 130px;
+}
+
+.s9 nav .s9d1 img{
+    width: 60%;
+    height: 30%;
+}
+
+.s9 nav .s9d1 p{
+    color: rgb(121, 119, 119);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.s9 nav .s9d2{
+    width: 15%;
+    height: 250px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 130px;
+}
+
+.s9 nav .s9d2 h2{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.s9 nav .s9d2 ul{
+    color: rgb(121, 119, 119);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+}
+
+.s9 nav .s9d2 ul li{
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: normal;
+    list-style-type: none;
+}
+
+.s9 nav .s9d3{
+    width: 15%;
+    height: 250px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 130px;
+}
+
+.s9 nav .s9d3 h2{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    float: left;
+}
+
+.s9 nav .s9d3 ul{
+    color: rgb(121, 119, 119);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 75px;
+}
+
+.s9 nav .s9d3 ul li{
+    font-size: 18px;
+    line-height: 35px;
+    list-style-type: none;
+    font-weight: normal;
+}
+
+.s9 nav .s9d4{
+    width: 25%;
+    height: 250px;
+    float: left; 
+    margin-left: 2%;
+    margin-top: 130px;
+}
+
+.s9 nav .s9d4 input{
+    font-size: 20px;
+    padding-left: 40px;
+    border: none;
+    width: 250px;
+    height: 42px;
+    background-color: rgb(86, 85, 85);
+}
+
+.s9 nav .s9d4 input::placeholder{
+    color: rgb(156, 155, 155);
+}
+
+.s9 nav .s9d4 button{
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    background-color: rgb(65, 64, 64);
+    color: rgb(220, 220, 220);
+    border: none;
+}
+
+.s9 nav .s9d4 img{
+    margin-top: 50px;
+}
+
+.s9 nav .s9d5{
+    width: 100%;
+    height: 100px;
+    clear: both;
+}
+
+.s9 nav .s9d5 h2{
+    padding-top: 150px;
+    width: 100%;
+    text-align: center;
+    color: gray;
+    width: 100%;
+}

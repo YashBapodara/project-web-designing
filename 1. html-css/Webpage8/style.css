@@ -1,0 +1,943 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    border: 2px solid black;
+    background-image: url('./images/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header .subheader {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .subheader .logo {
+    width: 20%;
+    height: 100%;
+}
+
+header .subheader .logo img {
+    width: 100%;
+    height: 100%;
+}
+
+header .subheader nav {
+    width: 45%;
+    height: 100%;
+}
+
+header .subheader nav ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header .subheader nav ul li {
+    list-style: none;
+    font-size: 22px;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+header .subheader nav ul li:hover{
+    color: orangered;
+}
+
+header .subheader button {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 12%;
+    height: 40px;
+    border: none;
+    background-color: green;
+    color: whitesmoke;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+header .subheader button:hover{
+    background-color: rgb(1, 241, 1);
+}
+
+header .content {
+    width: 100%;
+    height: 550px;
+    padding-top: 6%;
+    padding-left: 5%;
+}
+
+header .content h1 {
+    font-size: 55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 40%;
+    height: 200px;
+    color: white;
+}
+
+header .content h1 span {
+    color: orangered;
+}
+
+header .content hr {
+    width: 12%;
+    height: 7px;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 3%;
+}
+
+header .content p {
+    color: white;
+    font-size: 17px;
+    width: 42%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 3%;
+}
+
+header .content .btn1 {
+    font-size: 20px;
+    padding: 10px;
+    width: 12%;
+    border: none;
+    margin-top: 3%;
+    color: white;
+    background-color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+header .content .btn1:hover{
+    background-color: rgb(133, 212, 14);
+}
+
+header .content .btn2 {
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 10%;
+    border: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: orangered;
+    border-radius: 5px;
+    margin-left: 2%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+header .content .btn2:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+.s1 {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.s1 .s1d1 {
+    width: 37%;
+    height: 150px;
+    border: 2px solid black;
+    display: flex;
+}
+
+.s1 .s1d1 .s1d1d1 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s1 .s1d1 .s1d1d1 i {
+    font-size: 100px;
+    color: green;
+    transition: 0.2s;
+}
+
+.s1 .s1d1 .s1d1d2 {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.s1 .s1d1 .s1d1d2 h1 {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.s1 .s1d1 .s1d1d2 p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.s1 .s1d1:hover .s1d1d1 i {
+    padding-top: 10%;
+}
+
+.s1 .s1d2 {
+    width: 37%;
+    height: 150px;
+    border: 2px solid black;
+    display: flex;
+}
+
+.s1 .s1d2 .s1d2d1 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s1 .s1d2 .s1d2d1 i {
+    font-size: 100px;
+    color: green;
+    transition: 0.2s;
+}
+
+.s1 .s1d2 .s1d2d2 {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.s1 .s1d2 .s1d2d2 h1 {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.s1 .s1d2 .s1d2d2 p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.s1 .s1d2:hover .s1d2d1 i {
+    padding-top: 10%;
+}
+
+.s1 .s1d3 {
+    width: 37%;
+    height: 150px;
+    border: 2px solid black;
+    display: flex;
+}
+
+.s1 .s1d3 .s1d3d1 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s1 .s1d3 .s1d3d1 i {
+    font-size: 100px;
+    color: green;
+    transition: 0.2s;
+}
+
+.s1 .s1d3 .s1d3d2 {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.s1 .s1d3 .s1d3d2 h1 {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.s1 .s1d3 .s1d3d2 p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.s1 .s1d3:hover .s1d3d1 i {
+    padding-top: 10%;
+}
+
+.s1 .s1d4 {
+    width: 37%;
+    height: 150px;
+    border: 2px solid black;
+    display: flex;
+}
+
+.s1 .s1d4 .s1d4d1 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s1 .s1d4 .s1d4d1 i {
+    font-size: 100px;
+    color: green;
+    transition: 0.2s;
+}
+
+.s1 .s1d4 .s1d4d2 {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.s1 .s1d4 .s1d4d2 h1 {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.s1 .s1d4 .s1d4d2 p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.s1 .s1d4:hover .s1d4d1 i {
+    padding-top: 10%;
+}
+
+.s1 .s1d5 {
+    width: 37%;
+    height: 150px;
+    border: 2px solid black;
+    display: flex;
+}
+
+.s1 .s1d5 .s1d5d1 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s1 .s1d5 .s1d5d1 i {
+    font-size: 100px;
+    color: green;
+    transition: 0.2s;
+}
+
+.s1 .s1d5 .s1d5d2 {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.s1 .s1d5 .s1d5d2 h1 {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.s1 .s1d5 .s1d5d2 p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.s1 .s1d5:hover .s1d5d1 i {
+    padding-top: 10%;
+}
+
+.s1 .s1d6 {
+    width: 37%;
+    height: 150px;
+    border: 2px solid black;
+    display: flex;
+}
+
+.s1 .s1d6 .s1d6d1 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s1 .s1d6 .s1d6d1 i {
+    font-size: 100px;
+    color: green;
+    transition: 0.2s;
+}
+
+.s1 .s1d6 .s1d6d2 {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.s1 .s1d6 .s1d6d2 h1 {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.s1 .s1d6 .s1d6d2 p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.s1 .s1d6:hover .s1d6d1 i {
+    padding-top: 10%;
+}
+
+.s2 {
+    width: 100%;
+    height: 350px;
+    background-image: url('./images/bg2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.s2 .s2d1 {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.s2 .s2d1 .s2d1d1 {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s2 .s2d1 .s2d1d1 h1 {
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.s2 .s2d1 .s2d1d1 h1 .txt1 {
+    color: green;
+}
+
+.s2 .s2d1 .s2d1d1 h1 .txt2 {
+    color: orangered;
+}
+
+.s2 .s2d1 .s2d1d2 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.s2 .s2d1 .s2d1d2 .btn1 {
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    height: 45px;
+    border: none;
+    margin-top: 3%;
+    color: white;
+    background-color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.s2 .s2d1 .s2d1d2 .btn1:hover{
+    background-color: rgb(133, 212, 14);
+}
+
+.s2 .s2d1 .s2d1d2 .btn2 {
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    height: 45px;
+    width: 150px;
+    border: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: orangered;
+    border-radius: 5px;
+    margin-left: 2%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.s2 .s2d1 .s2d1d2 .btn2:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+.s3{
+    width: 100%;
+    height: 700px;
+}
+
+.s3 .s3d1{
+    width: 100%;
+    height: 150px;
+    margin-top: 5%;
+
+}
+
+.s3 .s3d1 h4{
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.s3 .s3d1 h2{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 0.5%;
+}
+
+.s3 .main{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.s3 .main .s3d2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.s3 .main .s3d2 .s3d2d1{
+    width: 70%;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.s3 .main .s3d2 .s3d2d1 button{
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.s3 .main .s3d2 .s3d2d1 button:hover{
+    background-color: black;
+    color: white;
+}
+
+.s3 .main .s3d2 .s3d2d2{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.s3 .main .s3d2 .s3d2d2 .s3d2d2d1{
+    width: 25%;
+    height: 100%;
+}
+
+.s3 .main .s3d2 .s3d2d2 .s3d2d2d1 h1{
+    font-size: 17px;
+    color: green;
+    padding: 15px 10px;
+    border-bottom: 2px solid gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.s3 .main .s3d2 .s3d2d2 .s3d2d2d2{
+    width: 25%;
+    height: 100%;
+}
+
+.s3 .main .s3d2 .s3d2d2 .s3d2d2d2 h1{
+    font-size: 17px;
+    padding: 15px 10px;
+    border-bottom: 2px solid gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+}
+
+.s3 .main .s3d2 .s3d2d2 .s3d2d2d3{
+    width: 25%;
+    height: 100%;
+}
+
+.s3 .main .s3d2 .s3d2d2 .s3d2d2d3 h1{
+    font-size: 17px;
+    font-weight: normal;
+    padding: 15px 10px;
+    border-bottom: 2px solid gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.s3 .main .s3d2 .s3d2d2 .s3d2d2d4{
+    width: 25%;
+    height: 100%;
+}
+
+.s3 .main .s3d2 .s3d2d2 .s3d2d2d4 h1{
+    font-size: 17px;
+    padding: 15px 10px;
+    font-weight: normal;
+    border-bottom: 2px solid gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.s3 .main .s3d3{
+    width: 25%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.s3 .main .s3d3 h1{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.s3 .main .s3d3 p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+}
+
+.s3 .main .s3d3 button{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 170px;
+    height: 50px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.s3 .main .s3d3 button:hover{
+    background-color: rgb(5, 176, 5);
+}
+
+.s4{
+    width: 100%;
+    height: 650px;
+    background-image: url('./images/bg3.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.s4 .s4d1{
+    width: 40%;
+    height: 100%;
+}
+
+.s4 .s4d1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.s4 .s4d2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.s4 .s4d2 .s4d2d1{
+    width: 100%;
+    height: 15%;
+    margin-left: 6%;
+}
+
+.s4 .s4d2 .s4d2d1 h4{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: orangered;
+}
+
+.s4 .s4d2 .s4d2d1 h1{
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.s4 .s4d2 .s4d2d2{
+    width: 100%;
+    height: 70%;
+}
+
+.s4 .s4d2 .s4d2d2 form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.s4 .s4d2 .s4d2d2 form .f1{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.s4 .s4d2 .s4d2d2 form .f1 .f1f1{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.s4 .s4d2 .s4d2d2 form .f1 .f1f1 label{
+   font-size: 20px;
+   color: rgb(209, 208, 208);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.s4 .s4d2 .s4d2d2 form .f1 .f1f1 input{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(92, 91, 91);
+}
+
+.s4 .s4d2 .s4d2d2 form .f1 .f1f2{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.s4 .s4d2 .s4d2d2 form .f1 .f1f2 label{
+   font-size: 20px;
+   color: rgb(209, 208, 208);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.s4 .s4d2 .s4d2d2 form .f1 .f1f2 input{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 350px;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(92, 91, 91);
+}
+
+.s4 .s4d2 .s4d2d2 form .f2{
+    width: 86%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.s4 .s4d2 .s4d2d2 form .f2 label{
+   font-size: 20px;
+   color: rgb(209, 208, 208);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.s4 .s4d2 .s4d2d2 form .f2 input{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 720px;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(92, 91, 91);
+}
+
+.s4 .s4d2 .s4d2d2 form .f3{
+    width: 86%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.s4 .s4d2 .s4d2d2 form .f3 label{
+   font-size: 20px;
+   color: rgb(209, 208, 208);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.s4 .s4d2 .s4d2d2 form .f3 select{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 720px;
+    height: 40px;  
+    background-color: rgb(92, 91, 91);
+    color: white;
+    border-radius: 5px;
+}
+
+.s4 .s4d2 .s4d2d2 form .f4{
+    width: 86%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.s4 .s4d2 .s4d2d2 form .f4 button{
+    width: 180px;
+    font-size: 20px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.s4 .s4d2 .s4d2d2 form .f4 button:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+.s5{
+    width: 100%;
+    height: 700px;
+    padding-top: 5%;
+}
+
+.s5 .s5d1{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.s5 .s5d1 h4{
+    font-size: 20px;
+    color: orangered;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.s5 .s5d1 h1{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.s5 .s5d2{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    padding-left: 25%;
+}
+
+.s5 .s5d2 .s5d2d1{
+    width: 50%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.s5 .s5d2 .s5d2d1 p{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+
+.s5 .s5d2 .s5d2d1 h1{
+    font-size: 28px;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.s5 .s5d2 .s5d2d1 h2{
+    font-size: 14px;
+    color: green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.s5 .s5d2 .s5d2d2{
+    width: 20%;
+    height: 60%;
+}
+
+.s5 .s5d2 .s5d2d2 img{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer h2{
+    color: rgb(220, 218, 218);
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer h4{
+    color: rgb(220, 218, 218);
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
