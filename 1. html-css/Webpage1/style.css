@@ -1,0 +1,444 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 120px;
+    background-color: bisque;
+}
+
+header .logo{
+    width: 12%;
+    height: 100%;
+    font-size: 40px;
+    float: left;
+    text-align: center;
+    line-height: 90px;
+}
+
+header .logo a{
+    width: 100%;
+    height: 100%;
+    float: left;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+header .logo a img{
+    width: 100%;
+    height: 100%;
+}
+
+
+header ul{
+    float: right;
+    width: 88%;
+    height: 100%;
+}
+
+header ul li{
+    float: right;
+    display: inline;
+    font-size: 22px;
+    line-height: 140px;
+    margin-left: 4%;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+header ul li a:hover{
+    color: rgb(1, 1, 72);
+}
+
+.main{
+    width: 100%;
+    height: 500px;
+}
+
+.main .inner1{
+    width: 42%;
+    height: 100%;
+    float: right;
+    margin-right: 4%;
+}
+
+.main .inner1 img{
+    width: 100%;
+    height: 100%;
+    margin-right: 4%;
+}
+
+.main .inner2{
+    width: 45%;
+    margin-left: 4%;
+    height: 100%;
+    float: left;
+}
+
+.main .inner2 .child{
+    width: 100%;
+    float: left;
+}
+
+.main .inner2 .child h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin-top: 120px;
+    width: 100%;
+    height: 100%;
+}
+
+.main .inner2 .child p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    margin-top: 40px;
+    width: 100%;
+    height: 100%;
+}
+
+.main .inner2 .child button{
+    font-size: 20px;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.main .inner2 .child button:hover{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
+
+.s1{
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+}
+
+.s1 nav{
+    width: 100%;
+    height: 100%;
+}
+
+.s1 nav h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.s1 nav .d1{
+    width: 20%;
+    border: 3px solid black;
+    border-radius: 20px;
+    height: 400px;
+    float: left;
+    margin-left: 4%;
+    margin-top: 30px;
+}
+
+.s1 nav .d2{
+    width: 20%;
+    border: 3px solid black;
+    height: 400px;
+    float: left;
+    margin-left: 4%;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.s1 nav .d3{
+    width: 20%;
+    border: 3px solid black;
+    height: 400px;
+    float: left;
+    margin-left: 4%;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.s1 nav .d4{
+    width: 20%;
+    border: 3px solid black;
+    height: 400px;
+    float: left;
+    margin-left: 4%;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.s1 nav .d1 img, .s1 nav .d2 img, .s1 nav .d3 img, .s1 nav .d4 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.s2{
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+}
+
+.s2 nav{
+    width: 100%;
+    height: 100%;
+}
+
+.s2 nav div{
+    width: 20%;
+    height: 400px;
+    float: left;
+    margin-left: 4%;
+}
+
+.s2 nav div h2{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.s2 nav div p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 17px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.s3{
+    width: 100%;
+    height: 600px;
+}
+
+.s3 nav{
+    width: 100%;
+    height: 100%;
+}
+
+.s3 nav .s3d1{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.s3 nav .s3d2{
+    background-color: rgb(206, 202, 202);
+    width: 30%;
+    height: 450px;
+    border: 4px solid black;
+    float: left;
+    margin-left: 2%;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.s3 nav .s3d3{
+    margin-left: 3%;
+}
+
+.s3 nav .s3d2 .s3inner{
+    width: 100%;
+    border: 2px solid black;
+    height: 15%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.s3 nav .s3d2 .s3inner ul{
+    width: 100%;
+    height: 100%;
+    line-height: 60px;
+    border-radius: 14px 14px 0px 0px;
+    background-color: orange;
+}
+
+.s3 nav .s3d2 .s3inner ul .li1{
+    float: left;
+    width: 7%;
+    margin-left: 80px;
+    font-size: 35px;
+}
+
+.s3 nav .s3d2 .s3inner ul .li2{
+    float: left;
+    width: 7%;
+    margin-left: 15px;
+    font-size: 35px;
+}
+
+.s3 nav .s3d2 .s3outer{
+    margin-top: 30px;
+    font-size: 21px;
+    width: 70%;
+    text-align: center;
+}
+
+.s4{
+    margin-top: 30px;
+    width: 100%;
+    height: 760px;
+}
+
+.s4 .s4d1{
+    width: 100%;
+    height: 27%;
+    text-align: center;
+}
+
+.s4 .s4d1 h1{
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.s4 .s4d1 button{
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.s4 .s4d1 button:hover{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
+
+.s4 .s4d2{
+    width: 100%;
+    height: 73%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.s4 .s4d2 img{
+    width: 60%;
+    height: 90%;
+}
+
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(32, 31, 31);
+}
+
+footer .foot1{
+    width: 10%;
+    height: 350px;
+    margin-left: 3%;
+    float: left;
+    margin-top: 50px;
+}
+
+footer .foot1 h3{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer .foot1 ul{
+    color: rgb(155, 154, 154);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style-type: none;
+}
+
+footer .foot1 ul li{
+    padding: 4px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+footer .foot1 ul li:hover{
+    margin-left: 5%;
+}
+
+footer .foot2{
+    width: 10%;
+    height: 350px;
+    margin-left: 7%;
+    float: left;
+    margin-top: 50px;
+}
+
+footer .foot2 h3{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer .foot2 ul{
+    color: rgb(155, 154, 154);
+    list-style-type: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer .foot2 ul li{
+    padding: 4px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+footer .foot2 ul li:hover{
+    margin-left: 5%;
+}
+
+footer .foot3{
+    width: 60%;
+    height: 350px;
+    margin-left: 7%;
+    float: left;
+    margin-top: 50px;
+}
+
+footer .foot3 h3{
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer .foot3 form{
+    padding: 10 px;
+    text-align: center;
+}
+
+footer .foot3 .input1, footer .foot3 .input2, footer .foot3 .eml,  footer .foot3 .phno{
+    font-size: 25px;
+}
+
+footer .foot3 .input2,  footer .foot3 .phno{
+    margin-left: 80px;
+}
+
+footer .foot3 .feed{
+    font-size: 25px;
+}
+
+footer .foot3 button{
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: yellow;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+footer .foot3 button:hover{
+    background-color: orangered;
+}
+
+hr{
+    border: 2px solid black;
+}

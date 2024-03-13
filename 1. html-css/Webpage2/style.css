@@ -1,0 +1,419 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+}
+
+header .h1{
+    width: 15%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+header .h1 img{
+    width: 50%;
+    height: 100%;
+}
+
+header .h2{
+    float: right;
+    width: 85%;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+header .h2 ul{
+    text-align: right;
+}
+
+header .h2 ul li{
+    padding: 20px;
+    line-height: 80px;
+    font-size: 25px;
+    display: inline-block;
+}
+
+header .h2 ul li a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+header .h2 ul li a:hover{
+    color: rgb(234, 12, 12);
+}
+
+.sec1{
+    width: 100%;
+    height: 1000px;
+}
+
+.bgimg{
+    background-image: url('./image/b1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.sec1 nav{
+    width: 100%;
+    height: 100%;
+}
+
+.sec1 nav h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    margin-left: 40px;
+    color: white;
+    margin-top: 100px;
+}
+
+.sec1 nav h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-left: 40px;
+    color: white;
+}
+
+.sec1 nav ul{
+    margin-left: 40px;
+}
+
+.sec1 nav ul li{
+    float: left;
+    margin-left: 30px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.sec1 nav p{
+    color: rgb(199, 194, 194);
+    font-size: 18px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.sec2{
+    width: 100%;
+    margin-top: 100px;
+    height: 600px;
+}
+
+.sec2 nav{
+    width: 100%;
+    height: 100%;
+}
+
+.sec2 nav .sdiv1{
+    width: 55%;
+    height: 100%;
+    display: inline-block;
+    margin-left: 4%;
+}
+
+.sec2 nav .sdiv1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.sec2 nav .sdiv2{
+    width: 35%;
+    height: 100%;
+    display: inline-block;
+    margin-left: 2%;
+}
+
+.sec2 nav .sdiv2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.sec3 {
+    width: 92%;
+    height: 700px;
+    margin-top: 40px;
+    margin-left: 4%;
+}
+
+.sec3 nav{
+    width: 100%;
+    height: 100%;
+}
+
+.sec3 nav .sdiv3{
+    width: 100%;
+    height: 100%;
+}
+
+.sec3 nav .sdiv3 img{
+    width: 100%;
+    height: 100%;
+}
+
+.sec4{
+    width: 100%;
+    height: 600px;
+}
+
+.sec4 nav{
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+}
+
+.sec4 nav .sdiv4{
+    width: 60%;
+    height: 100%;
+    margin-left: 4%;
+
+    display: inline-block;
+}
+
+.sec4 nav .sdiv4 img{
+    width: 100%;
+    height: 100%;
+}
+
+.sec4 nav .sdiv5{
+    width: 30%;
+    height: 100%;
+    margin-left: 2%;
+    display: inline-block;
+}
+
+.sec4 nav .sdiv5 img{
+    width: 100%;
+    height: 100%;
+}
+
+.sec5{
+    width: 75%;
+    height: 250px;
+    margin-top: 70px;
+    margin-left: 10%;
+}
+
+.sec5 nav{
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+}
+
+.sec5 nav .heading{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sec5 nav .sec5d1{
+    width: 15%;
+    text-align: center;
+    height: 100px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 20%;
+}
+
+.sec5 nav .sec5d2{
+    width: 15%;
+    text-align: center;
+    height: 100px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 10%;
+}
+
+.sec5 nav .sec5d3{
+    width: 15%;
+    text-align: center;
+    height: 100px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 10%;
+}
+
+.sec5 nav .sec5d1 i, .sec5d2 i, .sec5d3 i{
+    font-size: 50px;
+}
+
+.sec5 nav .sec5d1 h1, .sec5d2 h1, .sec5d3 h1{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+}
+
+.sec6{
+    width: 100%;
+    height: 400px;
+    background-image: url('./image/house3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.sec6 nav{
+    width: 100%;
+    height: 100%;
+}
+
+.sec6 nav h1{
+    font-size: 105px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    margin-top: 150px;
+    padding-top: 150px;
+}
+
+.sec7 {
+    width: 100%;
+    height: 800px;
+    border: 2px solid black;
+    padding-top: 80px;
+}
+
+.sec7 nav{
+    width: 100%;
+    height: 100%;
+}
+
+.sec7 nav h1{
+    width:65%;
+    height: 100px;
+    font-size: 60px;
+    margin-left: 17%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sec7 nav form{
+    width: 65%;
+    height: 300px;
+    margin-left: 17%;
+    margin-top: 50px;
+}
+
+.sec7 nav form .box1{
+    width: 45%;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 25px;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+
+.sec7 nav form input:nth-child(2), input:nth-child(5){
+    margin-left: 94px;
+}
+
+.sec7 nav form .box2{
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 25px;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+
+.sec7 nav form button{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+    border: none;
+    background-color: white;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.sec7 nav form button::before{
+    content: '';
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    transition: 0.2s;
+    z-index: -1;
+}
+
+.sec7 nav form button:hover::before{
+    height: 100%;
+}
+
+.sec7 nav .sec7d1{
+    width:65%;
+    height: 80px;
+    margin-left: 17%;
+    margin-top: 80px;
+
+}
+
+.sec7 nav h2{
+    font-size: 30px;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(24, 24, 24);
+}
+
+footer nav{
+    width: 100%;
+    height: 100%;
+}
+
+footer nav .d1{
+    width: 65%;
+    height: 100%;
+    float: left;
+    padding-top: 60px;
+    text-align: center;
+}
+
+footer nav .d1 span{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(96, 95, 95);
+}
+
+footer nav .d2{
+    width: 25%;
+    height: 100%;
+    float: right;
+    text-align: right;
+}
+
+footer nav .d2 button{
+    width: 90%;
+    height: 60%;
+    font-size: 22px;
+    color: black;
+    margin-top: 30px;
+    margin-right: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(241, 241, 121);
+}
+
+footer nav .d2 button:hover{
+    background-color: rgb(251, 251, 14);
+}
